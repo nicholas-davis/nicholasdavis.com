@@ -4,13 +4,14 @@
 <br />
 <div align="center">
 
-<h3 align="center">NicholasDavis.com Website</h3>
+<h3 align="center">NicholasDavis.com v2</h3>
 
   <p align="center">
     nicholas_davis
     <br />
     <br />
-    <a href="https://nicholasdavis.com">View Website</a>
+    <a href="https://nicholasdavis.com">Website Link</a>
+    <a href="https://www.figma.com/file/TliiS3dorVYnK7bc6CAa5c/nicholasdavis.com?type=design&node-id=0%3A1&mode=design&t=iyKZdsyY8AvsCOk7-1">Figma Link</a>
   </p>
 </div>
 

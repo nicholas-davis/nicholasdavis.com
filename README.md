@@ -10,8 +10,8 @@
     nicholas_davis
     <br />
     <br />
-    <a href="https://nicholasdavis.com">Website Link</a>
-    <a href="https://www.figma.com/file/TliiS3dorVYnK7bc6CAa5c/nicholasdavis.com?type=design&node-id=0%3A1&mode=design&t=iyKZdsyY8AvsCOk7-1">Figma Link</a>
+    <a href="https://nicholasdavis.com" target="_blank">Website Link</a> · 
+    <a href="https://www.figma.com/file/TliiS3dorVYnK7bc6CAa5c/nicholasdavis.com?type=design&node-id=0%3A1&mode=design&t=iyKZdsyY8AvsCOk7-1" target="_blank">Figma Link</a>
   </p>
 </div>
 

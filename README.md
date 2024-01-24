@@ -24,7 +24,7 @@
 ### Built With
 
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![HammerJs][https://hammerjs.github.io/]][HammerJs-url]
+* [![HammerJs][HammerJs.com]][HammerJs-url]
 * [![JQuery][JQuery.com]][JQuery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -40,9 +40,10 @@ NicholasDavis.com v2 is under development.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: design/mockup.png.png
+[product-screenshot]: design/mockup.png
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [HammerJs-url]: https://hammerjs.github.io/
+[Hammerjs.com]: https://img.shields.io/badge/Hammer-E63B34?style=for-the-badge&logo=hammer&logoColor=white
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  {{> partials/head}}
+</head>
+
+<body>
+  <div class="container-xl">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="d-flex flex-column display-1">
+          <span>An extremely</span>
+          <span>passionate</span>
+          <span>designer &&</span>
+          <span>frontend developer</span>
+        </h1>
+      </div>
+      <div class="col-md-12">
+        <p class="lead mb-9">Driven professional with multiple broad technical skill sets. Excellent communicator
+          experienced
+          in
+          interpreting and implementing client and staff vision of new websites or custom web applications. Known for
+          the ability to multi-task and juggle multiple pressing projects simultaneously, meeting all deadlines. Thrives
+          in environments that constantly embrace new technologies.</p>
+      </div>
+    </div>
+  </div>
+  <header class="bg-white mb-12 pt-4 pb-4">
+    <nav class="navbar navbar--righteous-family-font navbar-expand-lg bg-body-tertiary pt-3 pb-3">
+      <div class="container-xl">
+        <a class="navbar-brand lh-sm d-flex flex-column" href="#" title="Nicholas Davis">
+          <span class="fs-2">Nicholas Davis</span>
+          <span class="fs-6">{{user.addressLine1}}, {{user.addressLine2}}</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+          <span class="d-flex me-5 align-items-center">
+            <span class="material-symbols-outlined me-3">
+              call
+            </span>
+            <span>{{user.phone}}</span>
+          </span>
+          <span class="d-flex me-5 align-items-center">
+            <span class="material-symbols-outlined me-3">
+              mark_email_unread
+            </span>
+            <span>{{user.email}}</span>
+          </span>
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-3">
+              public
+            </span>
+            <span>{{page.shortSiteURL}}</span>
+          </span>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container-xl">
+    <div class="row mb-10">
+      <div class="col-md-3">
+        <div class="sticky-top">
+          <h4 class="fs-1">Education</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="col-md-7 offset-md-2">
+        <div class="row">
+          {{> section/education}}
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="sticky-top">
+          <h4 class="fs-1">Education</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="col-md-7 offset-md-2">
+        <div class="row">
+          {{> section/experiences}}
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- JAVASCRIPT -->
+  {{> partials/scripts}}
+
+</body>
+
+</html>

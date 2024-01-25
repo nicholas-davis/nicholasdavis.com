@@ -1,0 +1,29 @@
+//
+// type.scss
+//
+
+// Colors
+
+a.text-white-60:hover {
+  color: fade-out($white, .2) !important;
+}
+
+
+// Underline
+
+[class*="text-underline-"] {
+  background: repeat-x left 1em / 1em .15em;
+}
+
+@each $color,
+$value in $theme-colors {
+  .text-underline-#{$color} {
+    @if $color=="warning" {
+      background-image: linear-gradient(to right, fade-out($value, .6), fade-out($value, .6));
+    }
+
+    @else {
+      background-image: linear-gradient(to right, fade-out($value, .8), fade-out($value, .8));
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "degrees": [
+        {
+            "icon": "school",
+            "university": "Drexel University",
+            "degree": "M.S. in Information Systems (MSIS), 2019",
+            "location": "Philadelphia, PA",
+            "linkText": "Coursework",
+            "linkUrl": ""
+        },
+        {
+            "icon": "school",
+            "university": "DeVry University",
+            "degree": "B.S. in Computer Information Systems, 2011",
+            "location": "Fort Washington, PA",
+            "linkText": "Coursework",
+            "modalName": "",
+            "linkUrl": ""
+        }
+    ]
+}

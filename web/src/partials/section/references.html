@@ -1,0 +1,13 @@
+<div class="d-flex flex-column">
+    {{#if sectionTitle}}
+    <h3 class="h2 text-uppercase">{{sectionTitle}}</h3>
+    {{/if}}
+    {{#each references.references}}
+    <div class="{{#if @last}}mb-0{{else}}mb-4{{/if}}">
+        <h5 class="mb-0">{{name}}</h5>
+        <div class="fw-light">{{position}}</div>
+        <div class="fw-light">{{phone}}</div>
+        <div class="fw-light">{{email}}</div>
+    </div>
+    {{/each}}
+</div>

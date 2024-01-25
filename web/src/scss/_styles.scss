@@ -1,0 +1,50 @@
+// 
+// styles.scss
+// Added for resume structure 
+//
+
+html,
+body {
+    height: 100%;
+    overflow: auto;
+}
+
+.display-3--line-height-4rem {
+    line-height: 4rem;
+}
+
+.small--60 {
+    font-size: 60%;
+}
+
+.border-top--thick {
+    border-top: 0.094rem solid; //1.5px
+}
+
+.border-bottom--thick {
+    border-bottom: 0.094rem solid; //1.5px
+}
+
+@include media-breakpoint-up(md) {
+    .border-right--thick {
+        border-right: 0.094rem solid; //1.5px
+    }
+
+    .border-bottom--thick--up-md {
+        border-bottom: none
+    }
+}
+
+.navbar--righteous-family-font {
+    font-family: $font-family-nav !important;
+}
+
+.skills-wrapper {
+    width: 3rem;
+    height: 3rem;
+
+    img {
+        width: 2rem;
+        height: auto;
+    }
+}

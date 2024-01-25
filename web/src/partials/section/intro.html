@@ -1,0 +1,33 @@
+<div class="d-flex flex-column {{classes}}">
+    <h1 class="h1 display-3 display-3--line-height-4rem mb-0">
+        <span class="fw-bolder">{{user.firstName}}</span>
+        <span>{{user.lastName}}</span>
+    </h1>
+    <h2 class="mb-3 mb-lg-4">{{user.profession}}</h2>
+    <div class="row">
+        <div class="d-flex align-items-center">
+            <i class="fe fe-phone me-3"></i>
+            <p class="mb-0 fw-light">{{user.phone}}</p>
+        </div>
+        <div class="d-flex align-items-center">
+            <i class="fe fe-mail me-3"></i>
+            <p class="mb-0 fw-light">{{user.email}}</p>
+        </div>
+        <div class="d-flex align-items-center">
+            <i class="fe fe-home me-3"></i>
+            <p class="mb-0 fw-light">{{user.addressLine1}}</p>
+        </div>
+        <div class="d-flex align-items-center">
+            <svg class="me-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                <path
+                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+            </svg>
+            <p class="mb-0 fw-light">{{user.linkedinURL}}</p>
+        </div>
+    </div>
+    <div class="d-flex flex-column mt-5">
+        <p class="mb-0 fw-light">Experienced [profession] with [number] years expertise in [skills/industries]. Strong
+            background in [focus areas] and accomplished [achievements]. Known for [soft skills], committed to [goals].
+        </p>
+    </div>
+</div>

@@ -1,0 +1,372 @@
+//
+// variables.scss
+//
+
+// Color system
+
+$white: #FFF !default;
+$black: #080909 !default;
+
+$gray-900: #222222 !default;
+$gray-800: #393A3A !default;
+$gray-600: #515151 !default;
+$gray-500: #5D5D5D !default;
+$gray-300: #686969 !default;
+$gray-200: #747474 !default;
+$gray-100: #B6B6B6 !default;
+
+$primary: $black;
+$secondary: $gray-500;
+$tertiary: $gray-300;
+$success: $gray-800;
+$danger: $gray-300;
+$info: $gray-600;
+$warning: $gray-600;
+$light: $gray-100 !default;
+$dark: $black !default;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "tertiary": $tertiary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+  ) !default;
+
+// The contrast ratio to reach against white, to determine if color changes from "light" to "dark". Acceptable values for WCAG 2.0 are 3, 4.5 and 7.
+// See https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast
+$min-contrast-ratio: 1.5 !default;
+
+// Customize the light and dark text colors for use in our YIQ color contrast function.
+$color-contrast-dark: $black !default;
+$color-contrast-light: $white !default;
+
+// Brand colors
+$facebook: #4267B2 !default;
+$instagram: #3F5D87 !default;
+$linkedin: #0072b1 !default;
+$dribbble: #DA5988 !default;
+$pinterest: #CB2027 !default;
+$youtube: #FF0000 !default;
+
+$brand-colors: (
+  "facebook" : $facebook,
+  "instagram": $instagram,
+  "linkedin": $linkedin,
+  "dribbble" : $dribbble,
+  "pinterest": $pinterest,
+  "youtube": $youtube ) !default;
+
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-caret: false !default;
+$enable-shadows: true !default;
+$enable-smooth-scroll: false !default;
+$enable-rfs: false !default;
+$enable-negative-margins: true !default;
+
+
+// Prefix for :root CSS variables
+
+$variable-prefix: bs- !default; // Deprecated in v5.2.0 for the shorter `$prefix`
+$prefix: $variable-prefix !default;
+
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+
+$spacer: 1rem !default;
+
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  // 4px
+  2: ($spacer * .5),
+  // 8px
+  3: ($spacer * .75),
+  // 12px
+  4: $spacer,
+  // 16px
+  5: ($spacer * 1.5),
+  // 24px
+  6: ($spacer * 2),
+  // 32px
+  7: ($spacer * 2.5),
+  // 40px
+  8: ($spacer * 3),
+  // 48px
+  9: ($spacer * 4),
+  // 64px
+  10: ($spacer * 5),
+  // 80px
+  11: ($spacer * 6),
+  // 96px
+  12: ($spacer * 8),
+  // 128px
+  13: ($spacer * 10),
+  // 160px 
+  14: ($spacer * 12),
+  // 192px
+  15: ($spacer * 14),
+  // 224px
+  16: ($spacer * 16),
+  // 256px
+  17: ($spacer * 20),
+  // 320px
+  18: ($spacer * 24) // 384px
+  ) !default;
+
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg: $white !default;
+$body-color: $black !default;
+
+
+// Links
+//
+// Style anchor elements.
+
+$link-color: $primary !default;
+$link-decoration: none !default;
+$link-hover-color: darken($link-color, 4%) !default;
+$link-hover-decoration: none !default;
+
+
+// Paragraphs
+//
+// Style p element.
+
+$paragraph-margin-bottom: 2rem !default;
+
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+// scss-docs-start container-max-widths
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px) !default;
+// scss-docs-end container-max-widths
+
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-gutter-width: 32px !default;
+
+
+// Components
+//
+// Define common padding and border radius sizes and more.
+
+$border-width: 1px !default;
+
+$border-widths: (
+  0: 0,
+  1: 1px,
+  2: 2px,
+  3: 3px,
+  4: 4px,
+  5: 5px,
+  6: 6px,
+  7: 7px) !default;
+
+$border-color: var(--#{$prefix}gray-200) !default;
+
+// $border-radius: 1rem !default;
+// $border-radius-lg: 2rem !default;
+// $border-radius-sm: .5rem !default;
+// $border-radius-pill: 50rem !default;
+
+$box-shadow: 0 0 6px fade-out($black, .97),
+  0 14px 24px fade-out($black, .94) !default;
+$box-shadow-sm: 0 .125rem .25rem rgba($black, .075) !default;
+$box-shadow-lg: 0 0 24px fade-out($black, .96),
+  0 44px 74px fade-out($black, .94) !default;
+
+$box-shadow-lift: 0 1rem 2.5rem fade-out($black, .9),
+  0 .5rem 1rem -.75rem fade-out($black, .9) !default;
+$box-shadow-lift-lg: 0 1rem 5rem fade-out($black, .9),
+  0 2rem 3rem -1rem fade-out($black, .95) !default;
+
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif: 'Roboto',
+  sans-serif !default;
+$font-family-serif: 'Roboto',
+  sans-serif !default;
+$font-family-base: $font-family-sans-serif !default;
+$font-family-nav: 'Righteous',
+  sans-serif !default;
+
+$font-size-base: 1.125rem !default; // 18px
+$font-size-lg: 1.25rem !default; // 20px
+$font-size-sm: 1rem !default; // 16px
+$font-size-xs: .875rem !default; // 14px
+$font-size-xxs: .75rem !default; // 12px
+
+$font-size-lg-sm: 1.125rem !default; // 18px
+
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
+$font-weight-bolder: 900 !default;
+
+$line-height-base: 1.6 !default;
+
+$h1-font-size: 2.25rem !default; // 36px
+$h2-font-size: 1.75rem !default; // 28px
+$h3-font-size: 1.25rem !default; // 20px
+$h4-font-size: 1.125rem !default; // 18px
+$h5-font-size: 1rem !default; // 16px
+$h6-font-size: 0.875rem !default; // 14px
+
+$font-sizes: (
+  xxs: $font-size-xxs,
+  xs: $font-size-xs,
+  sm: $font-size-sm,
+  lg: $font-size-lg,
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size) !default;
+
+$h1-font-size-sm: 1.75rem !default; // 28px
+$h2-font-size-sm: 1.5rem !default; // 24px
+$h3-font-size-sm: 1.125rem !default; // 18px
+
+$h1-line-height: 1.32 !default;
+$h3-line-height: 1.4 !default;
+$h4-line-height: 1.6 !default;
+
+$headings-font-family: $font-family-serif !default;
+$headings-font-weight: $font-weight-bold !default;
+
+$display-font-sizes: (
+  1: 5.125rem,
+  // 82px
+  2: 4.5rem,
+  // 72px
+  3: 4rem,
+  // 64px
+  4: 3rem // 48px
+  ) !default;
+
+$display1-size-sm: 3rem !default; // 48px
+$display2-size-sm: 3rem !default; // 48px
+$display3-size-sm: 2.5rem !default; // 40px
+$display4-size-sm: 2.25rem !default; // 36px
+
+$display-font-weight: $headings-font-weight !default;
+$display-line-height: 1.08 !default;
+
+$lead-font-size: 1.375rem !default; // 22px
+$lead-font-weight: $font-weight-normal !default;
+
+$lead-font-size-sm: 1.25rem !default; // 20px
+
+$small-font-size: 88% !default;
+
+$text-muted: var(--#{$prefix}gray-600) !default;
+
+$hr-color: var(--#{$prefix}border-color) !default;
+$hr-opacity: 1 !default;
+
+
+
+// Avatar
+
+$avatar-size-base: 4rem !default; // 64px
+$avatar-size-xs: 2.5rem !default; // 40px
+$avatar-size-sm: 3rem !default; // 48px
+$avatar-size-lg: 5rem !default; // 80px
+$avatar-size-xl: 6rem !default; // 96px
+$avatar-size-xxl: 7rem !default; // 112px
+
+$avatar-title-bg: var(--#{$prefix}gray-500) !default;
+$avatar-title-color: var(--#{$prefix}white) !default;
+
+// Icons
+
+$icon-size-base: 3rem !default; // 48px
+$icon-size-lg: 4.5rem !default; // 72px
+$icon-size-sm: 1.5rem !default; // 24px
+
+// Paths
+
+$path-to-fonts: "../fonts" !default;
+$path-to-img: "../img" !default;
+
+
+// Utilities
+
+$bg-checkered-size: 32px !default;
+$bg-checkered-color: var(--#{$prefix}white) !default;
+
+$utilities: (
+  "background-color": (property: background-color,
+    class: bg,
+    values: map-merge($theme-colors,
+      ("body": var(--#{$prefix}body-bg),
+        "white": var(--#{$prefix}white),
+        "transparent": transparent,
+        "dark-50": rgba($black, .5),
+        "gray-900": var(--#{$prefix}gray-900),
+        "gray-800": var(--#{$prefix}gray-800),
+        "gray-300": var(--#{$prefix}gray-300),
+        "gray-200": var(--#{$prefix}gray-200),
+        "white-10": rgba($white, .1),
+        "white-20": rgba($white, .2),
+      ))),
+  "border": (responsive: true,
+    property: border,
+    values: (null: var(--#{$prefix}border-width) solid var(--#{$prefix}border-color),
+      0: 0,
+    )),
+  "font-family": (property: font-family,
+    class: font,
+    values: (monospace: var(--#{$variable-prefix}font-monospace),
+      sans-serif: $font-family-sans-serif,
+      serif: $font-family-serif,
+    )),
+  "color": (property: color,
+    class: text,
+    values: map-merge(map-merge($theme-colors,
+        ("white": var(--#{$prefix}white),
+          "body": var(--#{$prefix}body-color),
+          "muted": $text-muted,
+          "black-50": rgba($black, .5),
+          "white-50": rgba($white, .5),
+          "reset": inherit,
+          "white-10": fade-out($white, .9),
+          "white-20": fade-out($white, .8),
+          "white-60": fade-out($white, .4),
+          "white-80": fade-out($white, .2),
+          "gray-300": var(--#{$prefix}gray-300),
+          "gray-500": var(--#{$prefix}gray-500),
+          "gray-600": var(--#{$prefix}gray-600),
+          "gray-800": var(--#{$prefix}gray-800),
+          "gray-900": var(--#{$prefix}gray-900),
+        )), $brand-colors)),
+);

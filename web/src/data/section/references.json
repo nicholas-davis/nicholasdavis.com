@@ -1,0 +1,22 @@
+{
+    "references": [
+        {
+            "name": "Reference Name",
+            "position": "Position",
+            "phone": "+1 123-456-7890",
+            "email": "reference@gmail.com"
+        },
+        {
+            "name": "Reference Name",
+            "position": "Position",
+            "phone": "+1 123-456-7890",
+            "email": "reference@gmail.com"
+        },
+        {
+            "name": "Reference Name",
+            "position": "Position",
+            "phone": "+1 123-456-7890",
+            "email": "reference@gmail.com"
+        }
+    ]
+}

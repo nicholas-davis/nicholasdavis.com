@@ -1,0 +1,63 @@
+{
+    "professional": [
+        {
+            "item": "Time Management"
+        },
+        {
+            "item": "Client Relations"
+        },
+        {
+            "item": "Leadership"
+        },
+        {
+            "item": "Project Management"
+        },
+        {
+            "item": "Problem Solving"
+        },
+        {
+            "item": "Critical Thinking"
+        },
+        {
+            "item": "Emotional Intelligence"
+        },
+        {
+            "item": "Negotiation Skills"
+        },
+        {
+            "item": "Strategic Thinking"
+        }
+    ],
+    "technical": [
+        {
+            "item": "Language Programming"
+        },
+        {
+            "item": "Data Visualization"
+        },
+        {
+            "item": "Statistical Analysis"
+        },
+        {
+            "item": "Machine Learning"
+        },
+        {
+            "item": "Advanced Computation"
+        },
+        {
+            "item": "Quantitative Analysis"
+        },
+        {
+            "item": "Financial Forecasting"
+        },
+        {
+            "item": "Technical Analysis"
+        },
+        {
+            "item": "Accounting"
+        },
+        {
+            "item": "Branding"
+        }
+    ]
+}

@@ -1,31 +1,352 @@
 {
+    "top": [
+        {
+            "icon": "hotel_class",
+            "title": "Top Languages",
+            "category": "Languages"
+        },
+        {
+            "icon": "hotel_class",
+            "title": "Top Tools",
+            "category": "Tools"
+        },
+        {
+            "icon": "hotel_class",
+            "title": "Top Frameworks",
+            "category": "Frameworks"
+        },
+        {
+            "icon": "hotel_class",
+            "title": "Top Design",
+            "category": "Design"
+        }
+    ],
+    "all": [
+        {
+            "icon": "star",
+            "title": "Languages"
+        },
+        {
+            "icon": "star",
+            "title": "Tools"
+        },
+        {
+            "icon": "star",
+            "title": "Frameworks"
+        },
+        {
+            "icon": "star",
+            "title": "Design"
+        }
+    ],
     "professional": [
         {
-            "item": "Time Management"
+            "priority": true,
+            "category": "Languages",
+            "name": "JavaScript",
+            "imageName": "javascript",
+            "imageStyles": "",
+            "level": "Senior",
+            "time": "7"
         },
         {
-            "item": "Client Relations"
+            "priority": true,
+            "category": "Languages",
+            "name": "TypeScript",
+            "imageName": "typescript",
+            "imageStyles": "",
+            "level": "Intermediate",
+            "time": "7"
         },
         {
-            "item": "Leadership"
+            "priority": true,
+            "category": "Languages",
+            "name": "php",
+            "imageName": "php",
+            "imageStyles": "",
+            "level": "Intermediate",
+            "time": "7"
         },
         {
-            "item": "Project Management"
+            "category": "Languages",
+            "name": "HTML5",
+            "imageName": "html5",
+            "imageStyles": "",
+            "level": "Principal",
+            "time": "7"
         },
         {
-            "item": "Problem Solving"
+            "category": "Languages",
+            "name": "CSS3",
+            "imageName": "css3",
+            "imageStyles": "width: 1.5rem;",
+            "level": "Principal",
+            "time": "7"
         },
         {
-            "item": "Critical Thinking"
+            "category": "Languages",
+            "name": "SCSS",
+            "imageName": "scss",
+            "imageStyles": "",
+            "level": "Principal",
+            "time": "7"
         },
         {
-            "item": "Emotional Intelligence"
+            "category": "Languages",
+            "name": "SQL",
+            "imageName": "sql",
+            "imageStyles": "",
+            "level": "Intermediate",
+            "time": "7"
         },
         {
-            "item": "Negotiation Skills"
+            "category": "Languages",
+            "name": "react",
+            "imageName": "react",
+            "imageStyles": "",
+            "level": "Junior",
+            "time": "7"
         },
         {
-            "item": "Strategic Thinking"
+            "priority": true,
+            "category": "Tools",
+            "name": "Visual Studio Code",
+            "imageName": "visual-studio-code",
+            "imageStyles": "",
+            "level": "Senior",
+            "time": "7"
+        },
+        {
+            "priority": true,
+            "category": "Tools",
+            "name": "Webpack",
+            "imageName": "webpack",
+            "imageStyles": "",
+            "level": "Senior",
+            "time": "7"
+        },
+        {
+            "priority": true,
+            "category": "Tools",
+            "name": "Chrome DevTools",
+            "imageName": "chrome-dev-tools",
+            "imageStyles": "",
+            "level": "Senior",
+            "time": "7"
+        },
+        {
+            "category": "Tools",
+            "name": "GraphQL (Runtime)",
+            "imageName": "graphql",
+            "imageStyles": "",
+            "level": "Senior",
+            "time": "7"
+        },
+        {
+            "category": "Tools",
+            "name": "Travis CI",
+            "imageName": "travis-ci",
+            "imageStyles": "",
+            "level": "Intermediate",
+            "time": "7"
+        },
+        {
+            "category": "Tools",
+            "name": "GitHub",
+            "imageName": "github",
+            "imageStyles": "",
+            "level": "Senior",
+            "time": "7"
+        },
+        {
+            "category": "Tools",
+            "name": "NPM",
+            "imageName": "npm",
+            "imageStyles": "",
+            "level": "Senior",
+            "time": "7"
+        },
+        {
+            "category": "Tools",
+            "name": "Storybook",
+            "imageName": "storybook",
+            "imageStyles": "",
+            "level": "Senior",
+            "time": "7"
+        },
+        {
+            "category": "Tools",
+            "name": "Jasmine Unit Testing",
+            "imageName": "jasmine",
+            "imageStyles": "",
+            "level": "Senior",
+            "time": "7"
+        },
+        {
+            "priority": true,
+            "category": "Frameworks",
+            "name": "Angular",
+            "imageName": "angular",
+            "imageStyles": "",
+            "level": "Principal",
+            "time": "7"
+        },
+        {
+            "priority": true,
+            "category": "Frameworks",
+            "name": "Angular Material",
+            "imageName": "angular",
+            "imageStyles": "",
+            "level": "Principal",
+            "time": "7"
+        },
+        {
+            "priority": true,
+            "category": "Frameworks",
+            "name": "jQuery (Library)",
+            "imageName": "jquery",
+            "imageStyles": "",
+            "level": "Senior",
+            "time": "7"
+        },
+        {
+            "category": "Frameworks",
+            "name": "Bootstrap",
+            "imageName": "bootstrap",
+            "imageStyles": "",
+            "level": "Principal",
+            "time": "7"
+        },
+        {
+            "category": "Frameworks",
+            "name": "Tailwind CSS",
+            "imageName": "tailwind-css",
+            "imageStyles": "",
+            "level": "Principal",
+            "time": "7"
+        },
+        {
+            "category": "Frameworks",
+            "name": "Handlebars.js (Library)",
+            "imageName": "handlebars",
+            "imageStyles": "",
+            "level": "Senior",
+            "time": "7"
+        },
+        {
+            "category": "Frameworks",
+            "name": "Node.js (Runtime)",
+            "imageName": "nodejs",
+            "imageStyles": "",
+            "level": "Intermediate",
+            "time": "7"
+        },
+        {
+            "category": "Frameworks",
+            "name": "Wordpress (CMS)",
+            "imageName": "wordpress",
+            "imageStyles": "",
+            "level": "Senior",
+            "time": "7"
+        },
+        {
+            "category": "Frameworks",
+            "name": "AngularJS",
+            "imageName": "angularjs",
+            "imageStyles": "",
+            "level": "Senior",
+            "time": "7"
+        },
+        {
+            "category": "Frameworks",
+            "name": "Carbon Design System",
+            "imageName": "carbon-design-system",
+            "imageStyles": "",
+            "level": "Principal",
+            "time": "7"
+        },
+        {
+            "priority": true,
+            "category": "Design",
+            "name": "UI/UX Design",
+            "imageName": "yard",
+            "imageStyles": "",
+            "level": "Principal",
+            "time": "7"
+        },
+        {
+            "priority": true,
+            "category": "Design",
+            "name": "Prototyping",
+            "imageName": "yard",
+            "imageStyles": "",
+            "level": "Principal",
+            "time": "7"
+        },
+        {
+            "priority": true,
+            "category": "Design",
+            "name": "Usability Testing",
+            "imageName": "yard",
+            "imageStyles": "",
+            "level": "Principal",
+            "time": "7"
+        },
+        {
+            "category": "Design",
+            "name": "Figma",
+            "imageName": "yard",
+            "imageStyles": "",
+            "level": "Principal",
+            "time": "7"
+        },
+        {
+            "category": "Design",
+            "name": "User Experience (UX)",
+            "imageName": "yard",
+            "imageStyles": "",
+            "level": "Principal",
+            "time": "7"
+        },
+        {
+            "category": "Design",
+            "name": "InVision Studio",
+            "imageName": "yard",
+            "imageStyles": "",
+            "level": "Principal",
+            "time": "7"
+        },
+        {
+            "category": "Design",
+            "name": "Mobile-First Design",
+            "imageName": "yard",
+            "imageStyles": "",
+            "level": "Principal",
+            "time": "7"
+        },
+        {
+            "category": "Design",
+            "name": "Responsive Design",
+            "imageName": "yard",
+            "imageStyles": "",
+            "level": "Principal",
+            "time": "7"
+        },
+        {
+            "category": "Design",
+            "name": "A/B Testing",
+            "imageName": "yard",
+            "imageStyles": "",
+            "level": "Principal",
+            "time": "7"
+        },
+        {
+            "category": "Design",
+            "name": "Color Theory",
+            "imageName": "yard",
+            "imageStyles": "",
+            "level": "Principal",
+            "time": "7"
         }
     ],
     "technical": [

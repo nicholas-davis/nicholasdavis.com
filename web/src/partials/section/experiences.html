@@ -25,14 +25,7 @@
             <h5>Skills</h5>
             <div class="d-flex">
                 {{#each skills}}
-                <div class="d-flex flex-column align-items-center me-3">
-                    <div
-                        class="d-flex justify-content-center align-items-center skills-wrapper bg-light-subtle rounded-2 p-2">
-                        <img class="img-fluid" src="{{webRoot}}/assets/img/skills/{{imageName}}.png" alt="{{name}}"
-                            style="{{imageStyles}}" />
-                    </div>
-                    <div class="fs-6">{{name}}</div>
-                </div>
+                {{> components/section-skills-icons__component}}
                 {{/each}}
             </div>
             <hr class="border-light" />
@@ -46,22 +39,3 @@
     </div>
 </div>
 {{/each}}
-
-<!-- <div class="d-flex flex-column {{classes}}">
-    <h3 class="h2 text-uppercase">{{sectionTitle}}</h3>
-    {{#each work-experience.experiences}}
-    <div class="flex-column flex-fill">
-        <h4 class="text-uppercase mb-0">{{jobTitle}}</h4>
-        <div class="d-flex flex-column flex-sm-row mb-2">
-            <div>{{companyName}}<span class="ms-1 me-1 d-none d-sm-inline">&#47;</span></div>
-            <div>{{addressCityState}}<span class="ms-1 me-1 d-none d-sm-inline">&#47;</div>
-            <div>{{startDate}}<span class="ms-1 me-1">&#8212;</span>{{endDate}}</div>
-        </div>
-        <ul class="{{#if @last}}mb-0{{/if}}">
-            {{#each list}}
-            <li>{{item}}</li>
-            {{/each}}
-        </ul>
-    </div>
-    {{/each}}
-</div> -->

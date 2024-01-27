@@ -131,6 +131,9 @@ module.exports = {
       partials: [path.join(process.cwd(), 'src', 'partials', '**', '*.{html,svg}')],
       data: resumeData,
       helpers: {
+        ifEquals: function (arg1, arg2, options) {
+          return (arg1 == arg2) ? options.fn(this) : options.inverse(this);
+        },
         is: function (v1, v2, options) {
           const variants = v2.split(' || ');
           const isTrue = variants.some((variant) => v1 === variant);

@@ -48,3 +48,27 @@ body {
         height: auto;
     }
 }
+
+.card-body--inner-border {
+    width: calc(100% - 3rem);
+    height: calc(100% - 3rem);
+    border-style: solid;
+    position: absolute;
+    box-shadow: 0px 4px 8px 5px rgb(8, 127, 103, .5);
+    z-index: 2;
+}
+
+.card-image {
+    height: 18.75rem;
+    object-fit: cover;
+    filter: grayscale(100%) blur(.1rem);
+}
+
+.card-image-gradient {
+    position: absolute;
+    background: linear-gradient(to bottom,
+            transparent, #0AFFCC);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}

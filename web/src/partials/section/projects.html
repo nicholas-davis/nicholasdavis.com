@@ -1,0 +1,15 @@
+{{#each projects.recent}}
+<div class="col-md-6 {{#if @last}}mb-0{{else}}mb-5{{/if}}">
+    <div class="card bg-white border-4 border-white rounded-4">
+        <a href="{{webRoot}}/{{linkUrl}}" class="stretched-link z-3"></a>
+        <div class="card-body card-body--inner-border border-4 border-dark  rounded-4 m-5">
+            <div class="d-flex align-items-end h-100">
+                <h2 class="card-title fw-medium mb-0">{{name}}</h2>
+            </div>
+        </div>
+        <div class="card-image-gradient rounded-4"></div>
+        <img class="card-image img-fluid rounded-4" src="{{webRoot}}/assets/img/projects/{{imageName}}.jpg"
+            alt="{{name}}" style="{{imageStyles}}" />
+    </div>
+</div>
+{{/each}}

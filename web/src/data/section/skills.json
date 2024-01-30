@@ -192,10 +192,18 @@
             "time": "7"
         },
         {
-            "priority": true,
             "category": "Frameworks",
             "name": "Angular Material",
             "imageName": "angular",
+            "imageStyles": "",
+            "level": "Principal",
+            "time": "7"
+        },
+        {
+            "priority": true,
+            "category": "Frameworks",
+            "name": "Bootstrap",
+            "imageName": "bootstrap",
             "imageStyles": "",
             "level": "Principal",
             "time": "7"
@@ -207,14 +215,6 @@
             "imageName": "jquery",
             "imageStyles": "",
             "level": "Senior",
-            "time": "7"
-        },
-        {
-            "category": "Frameworks",
-            "name": "Bootstrap",
-            "imageName": "bootstrap",
-            "imageStyles": "",
-            "level": "Principal",
             "time": "7"
         },
         {

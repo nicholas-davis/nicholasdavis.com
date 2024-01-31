@@ -1,0 +1,15 @@
+{{#each section.block}}
+<div class="row mb-10">
+    <div class="col-md-3">
+        <div class="sticky-top">
+            <h4 class="fs-1">{{name}}</h4>
+            <p>{{description}}</p>
+        </div>
+    </div>
+    <div class="col-md-7 offset-md-2">
+        <div class="row">
+            {{> (concatPath 'section/' fileName)}}
+        </div>
+    </div>
+</div>
+{{/each}}

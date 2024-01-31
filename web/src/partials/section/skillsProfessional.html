@@ -1,4 +1,4 @@
-{{#each skills.top}}
+{{#each @root.skills.top}}
 <div class="col-md-6 {{#if @last}}mb-0{{else}}mb-5{{/if}}">
     <div class="card bg-white border-0 rounded-4">
         <div class="card-body">
@@ -8,7 +8,7 @@
             <h2 class="card-title fw-medium mb-4">
                 {{title}}
             </h2>
-            {{#each ../skills.professional}}
+            {{#each @root.skills.professional}}
             {{#if priority}}
             {{#ifEquals category ../category}}
             {{> components/section-skills-list__component}}
@@ -19,7 +19,7 @@
     </div>
 </div>
 {{/each}}
-{{#each skills.all}}
+{{#each @root.skills.all}}
 <div class="col-md-12 {{#if @last}}mb-0{{else}}mb-5{{/if}}">
     <div class="card bg-white border-0 rounded-4">
         <div class="card-body">
@@ -29,7 +29,7 @@
             <h2 class="card-title fw-medium mb-4">
                 {{title}}
             </h2>
-            {{#each ../skills.professional}}
+            {{#each @root.skills.professional}}
             {{#ifEquals category ../title}}
             {{> components/section-skills-list__component}}
             {{/ifEquals}}

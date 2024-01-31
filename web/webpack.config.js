@@ -131,6 +131,13 @@ module.exports = {
       partials: [path.join(process.cwd(), 'src', 'partials', '**', '*.{html,svg}')],
       data: resumeData,
       helpers: {
+        concatPath: function (basePath, fileName) {
+          console.log(basePath, fileName)
+          return `${basePath}${fileName}`;
+        },
+        concatPartial: function () {
+          return Array.prototype.slice.call(arguments, 0, -1).join('');
+        },
         ifEquals: function (arg1, arg2, options) {
           return (arg1 == arg2) ? options.fn(this) : options.inverse(this);
         },

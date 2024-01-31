@@ -1,0 +1,19 @@
+{
+    "list": [
+        {
+            "icon": "folder_shared",
+            "name": "Resume",
+            "linkUrl": "NICHOLAS-DAVIS__Resume.pdf"
+        },
+        {
+            "icon": "folder_shared",
+            "name": "Github",
+            "linkUrl": "https://github.com/nicholas-davis"
+        },
+        {
+            "icon": "folder_shared",
+            "name": "LinkedIn",
+            "linkUrl": "https://www.linkedin.com/in/nicholas-davis"
+        }
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "list": [
+        {
+            "icon": "face",
+            "name": "Leadership",
+            "item": [
+                {
+                    "text": "Led agile development teams in the successful delivery of software projects."
+                },
+                {
+                    "text": "Established and enforced coding standards, improving code quality across the team."
+                },
+                {
+                    "text": "Mentored junior developers, fostering their technical growth and skills."
+                },
+                {
+                    "text": "Spearheaded collaborative design sessions to align team members on project architecture."
+                },
+                {
+                    "text": "Initiated and led code review processes to ensure consistency and best practices."
+                }
+            ]
+        },
+        {
+            "icon": "face",
+            "name": "Problem-solving",
+            "item": [
+                {
+                    "text": "Analyzed and debugged complex software issues to identify root causes and implement solutions."
+                },
+                {
+                    "text": "Developed and implemented algorithms to optimize software performance."
+                },
+                {
+                    "text": "Created automated testing frameworks, reducing software bugs by 20%."
+                },
+                {
+                    "text": "Collaborated with cross-functional teams to troubleshoot and resolve integration challenges."
+                },
+                {
+                    "text": "Utilized data-driven approaches to identify and address software performance bottlenecks."
+                }
+            ]
+        },
+        {
+            "icon": "face",
+            "name": "Communication",
+            "item": [
+                {
+                    "text": "Articulated technical concepts clearly in team meetings, fostering a shared understanding."
+                },
+                {
+                    "text": "Documented software architectures, APIs, and technical specifications comprehensively."
+                },
+                {
+                    "text": "Presented technical solutions to non-technical stakeholders in an accessible manner."
+                },
+                {
+                    "text": "Facilitated code review sessions, providing constructive feedback to team members."
+                },
+                {
+                    "text": "Collaborated with product managers to translate business requirements into technical specifications."
+                }
+            ]
+        },
+        {
+            "icon": "face",
+            "name": "Eagerness to learn",
+            "item": [
+                {
+                    "text": "Proactively pursued professional development opportunities to stay abreast of the latest technologies."
+                },
+                {
+                    "text": "Acquired new programming languages and frameworks to expand technical expertise."
+                },
+                {
+                    "text": "Engaged in continuous learning through online courses and workshops."
+                },
+                {
+                    "text": "Actively participated in industry conferences and meetups to stay connected with the tech community."
+                },
+                {
+                    "text": "List Adopted and implemented emerging best practices to enhance software development processes."
+                }
+            ]
+        },
+        {
+            "icon": "face",
+            "name": "Work ethic",
+            "item": [
+                {
+                    "text": "Consistently met sprint goals and delivered high-quality, scalable software solutions."
+                },
+                {
+                    "text": "Maintained meticulous attention to detail in coding and testing processes."
+                },
+                {
+                    "text": "Demonstrated commitment by willingly taking on challenging projects and tasks."
+                },
+                {
+                    "text": "Prioritized and managed tasks effectively, ensuring timely delivery of software milestones."
+                },
+                {
+                    "text": "Collaborated closely with cross-functional teams, contributing to a positive and productive work environment."
+                }
+            ]
+        },
+        {
+            "icon": "face",
+            "name": "Creativity",
+            "item": [
+                {
+                    "text": "Developed innovative software solutions to address complex problems in a unique way."
+                },
+                {
+                    "text": "Designed and implemented creative user interfaces that enhance user experience."
+                },
+                {
+                    "text": "Proposed and implemented novel algorithms to optimize system performance."
+                },
+                {
+                    "text": "Contributed creative ideas during brainstorming sessions to improve project outcomes."
+                },
+                {
+                    "text": "Explored alternative approaches to software design, resulting in more efficient and elegant solutions."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{{#each character.list}}
+<div class="d-flex col-md-6 mb-5">
+    <div class="card bg-white border-0 rounded-4">
+        <div class="card-body">
+            <span class="material-symbols-outlined md-40 mb-7">
+                {{icon}}
+            </span>
+            <h2 class="card-title fw-medium">{{name}}</h2>
+            <ul class="list-unstyled">
+                {{#each item}}
+                <li class="d-flex fs-5 text-tertiary">
+                    <span class="material-symbols-outlined fw-bolder md-16 me-2 mt-1">
+                        done_all
+                    </span>
+                    <span>
+                        {{text}}
+                    </span>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+</div>
+{{/each}}

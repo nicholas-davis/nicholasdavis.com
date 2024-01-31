@@ -3,32 +3,32 @@
         {
             "name": "Education",
             "fileName": "education",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "description": "A strong academic foundation, including an advanced degree in Information Systems and a Bachelor's in Computer Information Systems."
         },
         {
-            "name": "Experiences",
+            "name": "Experience",
             "fileName": "experiences",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "description": "Results-oriented professional with 15+ years of extensive experience. Specializing in senior-level front-end software engineering, I lead UI/UX design and development for SaaS tools."
         },
         {
             "name": "Skills",
             "fileName": "skillsProfessional",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "description": "Versatile senior hybrid designer and developer with expertise in web technologies and UI/UX design."
         },
         {
             "name": "Projects",
             "fileName": "projects",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "description": "Led design and development initiatives, including notable projects like SaaS product redesign and implementation of key components like IBM Carbon Design System for Salesforce."
         },
         {
             "name": "Character",
             "fileName": "character",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "description": "Innovative thinker excelling in communication, problem-solving, and tech-forward environments. Thrives in multi-disciplinary teams with 15+ years of experience."
         },
         {
             "name": "Docs",
             "fileName": "docs",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "description": "Access essential documents for a comprehensive overview. Download my resume and explore my profiles on LinkedIn, GitHub, and other platforms."
         }
     ]
 }

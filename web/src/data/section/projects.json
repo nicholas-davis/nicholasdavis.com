@@ -1,26 +1,31 @@
 {
     "recent": [
         {
+            "modalId": "projectJettieModal",
             "name": "Jettie",
             "imageName": "recent-project-01",
             "linkUrl": ""
         },
         {
+            "modalId": "projectSyncModal",
             "name": "Sync",
             "imageName": "recent-project-02",
             "linkUrl": ""
         },
         {
+            "modalId": "projectJobNavigatorModal",
             "name": "JobNavigator",
             "imageName": "recent-project-03",
             "linkUrl": ""
         },
         {
+            "modalId": "projectMainelyBurgersModal",
             "name": "Mainely Burgers",
             "imageName": "recent-project-04",
             "linkUrl": ""
         },
         {
+            "modalId": "projectPennMedicineModal",
             "name": "Penn Medicine",
             "imageName": "recent-project-05",
             "linkUrl": ""

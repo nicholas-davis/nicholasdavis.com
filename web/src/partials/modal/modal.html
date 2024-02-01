@@ -1,5 +1,5 @@
 {{#each modal}}
-<div class="modal fade" id="{{id}}" tabindex="-1" aria-labelledby="{{id}}Label" aria-hidden="true">
+<div class="modal {{size}} fade" id="{{id}}" tabindex="-1" aria-labelledby="{{id}}Label" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -8,6 +8,7 @@
                 </h1>
             </div>
             <div class="modal-body">
+                {{#ifEquals type 'list'}}
                 <ul class="list-unstyled">
                     <h4>{{subtitle}}</h4>
                     {{#each @root.education.degrees}}
@@ -18,8 +19,20 @@
                     {{/each}}
                     {{/each}}
                 </ul>
+                {{/ifEquals}}
+
+                {{#ifEquals type 'image'}}
+                {{#each @root.projects.recent}}
+                {{#ifEquals ../id modalId}}
+                <div class="card bg-white border-6 border-white rounded-4">
+                    <img class="img-fluid" src="{{webRoot}}/assets/img/projects/{{imageName}}.jpg" alt="{{name}}"
+                        style="{{imageStyles}}" />
+                </div>
+                {{/ifEquals}}
+                {{/each}}
+                {{/ifEquals}}
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer border-0">
                 <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Got it</button>
             </div>
         </div>

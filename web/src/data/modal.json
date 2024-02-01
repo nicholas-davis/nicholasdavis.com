@@ -3,18 +3,49 @@
         "id": "educationDrexelModal",
         "title": "Drexel University",
         "subtitle": "Coursework",
+        "type": "list",
         "size": ""
     },
     {
         "id": "educationDeVryModal",
         "title": "DeVry University",
         "subtitle": "Coursework",
+        "type": "list",
         "size": ""
     },
     {
-        "id": "experiencesModal",
-        "title": "Me tooooo",
-        "subtitle": "",
-        "size": ""
+        "id": "projectJettieModal",
+        "title": "Jettie",
+        "subtitle": "Project",
+        "type": "image",
+        "size": "modal-xl"
+    },
+    {
+        "id": "projectSyncModal",
+        "title": "Sync",
+        "subtitle": "Project",
+        "type": "image",
+        "size": "modal-xl"
+    },
+    {
+        "id": "projectJobNavigatorModal",
+        "title": "JobNavigator",
+        "subtitle": "Project",
+        "type": "image",
+        "size": "modal-xl"
+    },
+    {
+        "id": "projectMainelyBurgersModal",
+        "title": "Mainely Burgers",
+        "subtitle": "Project",
+        "type": "image",
+        "size": "modal-xl"
+    },
+    {
+        "id": "projectPennMedicineModal",
+        "title": "Penn Medicine",
+        "subtitle": "Project",
+        "type": "image",
+        "size": "modal-xl"
     }
 ]

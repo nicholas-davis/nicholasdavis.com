@@ -9,30 +9,38 @@ body {
     overflow: auto;
 }
 
-.display-3--line-height-4rem {
-    line-height: 4rem;
+.display-1--intro-headline {
+    font-size: 6rem;
 }
 
 .small--60 {
     font-size: 60%;
 }
 
-.border-top--thick {
-    border-top: 0.094rem solid; //1.5px
+.intro__text-line-height {
+    line-height: 5.5rem;
 }
 
-.border-bottom--thick {
-    border-bottom: 0.094rem solid; //1.5px
+.intro__colored-text {
+    color: #50FDD9;
 }
 
-@include media-breakpoint-up(md) {
-    .border-right--thick {
-        border-right: 0.094rem solid; //1.5px
-    }
+.container-fluid__intro-bg {
+    background: url(/assets/img/nicholasdavis-intro-bg.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+}
 
-    .border-bottom--thick--up-md {
-        border-bottom: none
-    }
+.nicholasdavis-profile-image {
+    width: 500px;
+    height: 793px;
+    top: 0;
+    right: 0;
+    filter: brightness(130%) hue-rotate(145deg) saturate(30%);
 }
 
 .navbar--righteous-family-font {

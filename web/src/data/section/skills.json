@@ -47,7 +47,7 @@
             "imageName": "javascript",
             "imageStyles": "",
             "level": "Senior",
-            "time": "7"
+            "time": "15"
         },
         {
             "priority": true,
@@ -56,7 +56,7 @@
             "imageName": "typescript",
             "imageStyles": "",
             "level": "Intermediate",
-            "time": "7"
+            "time": "5"
         },
         {
             "priority": true,
@@ -65,7 +65,7 @@
             "imageName": "php",
             "imageStyles": "",
             "level": "Intermediate",
-            "time": "7"
+            "time": "5"
         },
         {
             "category": "Languages",
@@ -73,7 +73,7 @@
             "imageName": "html5",
             "imageStyles": "",
             "level": "Principal",
-            "time": "7"
+            "time": "20+"
         },
         {
             "category": "Languages",
@@ -81,7 +81,7 @@
             "imageName": "css3",
             "imageStyles": "width: 1.5rem;",
             "level": "Principal",
-            "time": "7"
+            "time": "20+"
         },
         {
             "category": "Languages",
@@ -89,7 +89,7 @@
             "imageName": "scss",
             "imageStyles": "",
             "level": "Principal",
-            "time": "7"
+            "time": "10"
         },
         {
             "category": "Languages",
@@ -97,7 +97,7 @@
             "imageName": "sql",
             "imageStyles": "",
             "level": "Intermediate",
-            "time": "7"
+            "time": "5"
         },
         {
             "category": "Languages",
@@ -105,7 +105,7 @@
             "imageName": "react",
             "imageStyles": "",
             "level": "Junior",
-            "time": "7"
+            "time": "1"
         },
         {
             "priority": true,
@@ -114,7 +114,7 @@
             "imageName": "visual-studio-code",
             "imageStyles": "",
             "level": "Senior",
-            "time": "7"
+            "time": "10"
         },
         {
             "priority": true,
@@ -132,7 +132,7 @@
             "imageName": "chrome-dev-tools",
             "imageStyles": "",
             "level": "Senior",
-            "time": "7"
+            "time": "10"
         },
         {
             "category": "Tools",
@@ -140,7 +140,7 @@
             "imageName": "graphql",
             "imageStyles": "",
             "level": "Senior",
-            "time": "7"
+            "time": "5"
         },
         {
             "category": "Tools",
@@ -148,7 +148,7 @@
             "imageName": "travis-ci",
             "imageStyles": "",
             "level": "Intermediate",
-            "time": "7"
+            "time": "5"
         },
         {
             "category": "Tools",
@@ -156,7 +156,7 @@
             "imageName": "github",
             "imageStyles": "",
             "level": "Senior",
-            "time": "7"
+            "time": "9"
         },
         {
             "category": "Tools",
@@ -164,7 +164,7 @@
             "imageName": "npm",
             "imageStyles": "",
             "level": "Senior",
-            "time": "7"
+            "time": "8"
         },
         {
             "category": "Tools",
@@ -172,7 +172,7 @@
             "imageName": "storybook",
             "imageStyles": "",
             "level": "Senior",
-            "time": "7"
+            "time": "4"
         },
         {
             "category": "Tools",
@@ -180,7 +180,7 @@
             "imageName": "jasmine",
             "imageStyles": "",
             "level": "Senior",
-            "time": "7"
+            "time": "6"
         },
         {
             "priority": true,
@@ -189,7 +189,7 @@
             "imageName": "angular",
             "imageStyles": "",
             "level": "Principal",
-            "time": "7"
+            "time": "8"
         },
         {
             "category": "Frameworks",
@@ -206,7 +206,7 @@
             "imageName": "bootstrap",
             "imageStyles": "",
             "level": "Principal",
-            "time": "7"
+            "time": "9"
         },
         {
             "priority": true,
@@ -215,7 +215,7 @@
             "imageName": "jquery",
             "imageStyles": "",
             "level": "Senior",
-            "time": "7"
+            "time": "10"
         },
         {
             "category": "Frameworks",
@@ -223,7 +223,7 @@
             "imageName": "tailwind-css",
             "imageStyles": "",
             "level": "Principal",
-            "time": "7"
+            "time": "3"
         },
         {
             "category": "Frameworks",
@@ -231,7 +231,7 @@
             "imageName": "handlebars",
             "imageStyles": "",
             "level": "Senior",
-            "time": "7"
+            "time": "3"
         },
         {
             "category": "Frameworks",
@@ -239,7 +239,7 @@
             "imageName": "nodejs",
             "imageStyles": "",
             "level": "Intermediate",
-            "time": "7"
+            "time": "6"
         },
         {
             "category": "Frameworks",
@@ -247,7 +247,7 @@
             "imageName": "wordpress",
             "imageStyles": "",
             "level": "Senior",
-            "time": "7"
+            "time": "10"
         },
         {
             "category": "Frameworks",
@@ -255,7 +255,7 @@
             "imageName": "angularjs",
             "imageStyles": "",
             "level": "Senior",
-            "time": "7"
+            "time": "10"
         },
         {
             "category": "Frameworks",
@@ -263,7 +263,7 @@
             "imageName": "carbon-design-system",
             "imageStyles": "",
             "level": "Principal",
-            "time": "7"
+            "time": "5"
         },
         {
             "priority": true,
@@ -272,7 +272,7 @@
             "imageName": "yard",
             "imageStyles": "",
             "level": "Principal",
-            "time": "7"
+            "time": "20+"
         },
         {
             "priority": true,
@@ -281,7 +281,7 @@
             "imageName": "yard",
             "imageStyles": "",
             "level": "Principal",
-            "time": "7"
+            "time": "20+"
         },
         {
             "priority": true,
@@ -290,7 +290,7 @@
             "imageName": "yard",
             "imageStyles": "",
             "level": "Principal",
-            "time": "7"
+            "time": "20+"
         },
         {
             "category": "Design",
@@ -298,7 +298,7 @@
             "imageName": "yard",
             "imageStyles": "",
             "level": "Principal",
-            "time": "7"
+            "time": "20+"
         },
         {
             "category": "Design",
@@ -306,7 +306,7 @@
             "imageName": "yard",
             "imageStyles": "",
             "level": "Principal",
-            "time": "7"
+            "time": "20+"
         },
         {
             "category": "Design",
@@ -314,7 +314,7 @@
             "imageName": "yard",
             "imageStyles": "",
             "level": "Principal",
-            "time": "7"
+            "time": "20+"
         },
         {
             "category": "Design",
@@ -322,7 +322,7 @@
             "imageName": "yard",
             "imageStyles": "",
             "level": "Principal",
-            "time": "7"
+            "time": "20+"
         },
         {
             "category": "Design",
@@ -330,7 +330,7 @@
             "imageName": "yard",
             "imageStyles": "",
             "level": "Principal",
-            "time": "7"
+            "time": "20+"
         },
         {
             "category": "Design",
@@ -338,7 +338,7 @@
             "imageName": "yard",
             "imageStyles": "",
             "level": "Principal",
-            "time": "7"
+            "time": "20+"
         },
         {
             "category": "Design",
@@ -346,39 +346,7 @@
             "imageName": "yard",
             "imageStyles": "",
             "level": "Principal",
-            "time": "7"
-        }
-    ],
-    "technical": [
-        {
-            "item": "Language Programming"
-        },
-        {
-            "item": "Data Visualization"
-        },
-        {
-            "item": "Statistical Analysis"
-        },
-        {
-            "item": "Machine Learning"
-        },
-        {
-            "item": "Advanced Computation"
-        },
-        {
-            "item": "Quantitative Analysis"
-        },
-        {
-            "item": "Financial Forecasting"
-        },
-        {
-            "item": "Technical Analysis"
-        },
-        {
-            "item": "Accounting"
-        },
-        {
-            "item": "Branding"
+            "time": "20+"
         }
     ]
 }

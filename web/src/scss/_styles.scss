@@ -9,44 +9,93 @@ body {
     overflow: auto;
 }
 
-.display-1--intro-headline {
-    font-size: 6rem;
+// Section Heading Style
+.section__h4 {
+    color: #560BAD;
 }
 
+// Hero Headline Style
+.display-1--hero-headline {
+    font-size: 7rem;
+}
+
+// Small Text Style
 .small--60 {
     font-size: 60%;
 }
 
-.intro__text-line-height {
+// Hero Text Line Height
+.hero__text-line-height {
     line-height: 5.5rem;
 }
 
-.intro__colored-text {
+// Colored Text in Hero
+.hero__colored-text {
     color: #50FDD9;
 }
 
-.container-fluid__intro-bg {
-    background: url(/assets/img/nicholasdavis-intro-bg.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+// Hero Blur Style
+.hero__blur {
+    border-radius: 50%;
+    mix-blend-mode: hard-light;
+}
+
+@mixin heroBlur($background, $width, $height, $position, $opacity, $filter) {
+    background: $background;
+    width: $width;
+    height: $height;
+    position: absolute;
+    top: map-get($position, top);
+    right: map-get($position, right);
+    bottom: map-get($position, bottom);
+    left: map-get($position, left);
+    opacity: $opacity;
+    filter: $filter;
+}
+
+.hero__blur--1 {
+    @include heroBlur(#D03DD3, 736px, 770px, (top: 0, left: 0), 0.55, blur(185px) saturate(80%));
+}
+
+.hero__blur--2 {
+    @include heroBlur(#D03DD3, 736px, 995px, (top: 0, right: -60px), 0.7, blur(70px) saturate(40%));
+}
+
+.hero__blur--3 {
+    @include heroBlur(#430844, 1299px, 400px, (bottom: 0, left: 0), 0.7, blur(100px));
+}
+
+// Hero Image Code Style
+.hero__image-code {
+    width: 694px;
+    height: 1186px;
+    top: -290px;
+    right: -20px;
+    filter: brightness(90%) hue-rotate(-65deg) saturate(20%) blur(3px);
+}
+
+// Hero Background Style
+.container-fluid__hero-bg {
+    background: url(/assets/img/nicholasdavis-hero-bg.jpg) no-repeat center center/cover;
     max-height: 100%;
     max-width: 100%;
 }
 
+// Profile Image Style
 .nicholasdavis-profile-image {
-    width: 500px;
-    height: 793px;
-    top: 0;
-    right: 0;
-    filter: brightness(130%) hue-rotate(145deg) saturate(30%);
+    width: 560px;
+    height: 888px;
+    top: -40px;
+    right: -70px;
+    filter: brightness(120%) hue-rotate(-85deg) saturate(70%);
 }
 
+// Navbar Font Style
 .navbar--righteous-family-font {
     font-family: $font-family-nav !important;
 }
 
+// Skills Wrapper Style
 .skills-wrapper {
     width: 3rem;
     height: 3rem;
@@ -57,25 +106,27 @@ body {
     }
 }
 
+// Card Body Style
 .card-body--inner-border {
     width: calc(100% - 3rem);
     height: calc(100% - 3rem);
     border-style: solid;
     position: absolute;
-    box-shadow: 0px 4px 8px 5px rgb(8, 127, 103, .5);
+    box-shadow: 0px 4px 8px 5px rgba(8, 127, 103, .5);
     z-index: 2;
 }
 
+// Card Image Style
 .card-image {
     height: 18.75rem;
     object-fit: cover;
     filter: grayscale(100%) blur(.1rem);
 }
 
+// Card Image Gradient Overlay Style
 .card-image-gradient {
     position: absolute;
-    background: linear-gradient(to bottom,
-            transparent, #0AFFCC);
+    background: linear-gradient(to bottom, transparent, #0AFFCC);
     height: 100%;
     width: 100%;
     z-index: 1;

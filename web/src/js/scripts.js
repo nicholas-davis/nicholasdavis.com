@@ -2,6 +2,34 @@
 // scripts.js
 //
 
+const stickyElements = document.querySelectorAll(".sticky-top");
+
+const observerCallback = (entries) => {
+    entries.forEach((entry) => {
+        const isIntersecting = entry.isIntersecting;
+        const targetElement = entry.target;
+
+        // Check if the element is intersecting with the viewport
+        if (isIntersecting) {
+            // If the element is not fully visible, add the "pt-sm-5" class
+            targetElement.classList.add("pt-sm-5");
+        } else {
+            // If the element is fully visible, remove the "pt-sm-5" class
+            targetElement.classList.remove("pt-sm-5");
+        }
+    });
+};
+
+const observerOptions = { threshold: 0.0 };
+
+// Observe each sticky element
+stickyElements.forEach((element) => {
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+    observer.observe(element);
+});
+
+
+
 const downloadResumeFile = () => {
     // Get the button element
     const downloadButton = document.querySelector('button[data-url]');

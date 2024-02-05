@@ -1,6 +1,11 @@
 {
     "block": [
         {
+            "name": "Announcements",
+            "fileName": "announcements",
+            "description": "Stay informed with updates and announcements. I value transparency in sharing important news about projects, achievements, and career developments."
+        },
+        {
             "name": "Education",
             "fileName": "education",
             "description": "A strong academic foundation, including an advanced degree in Information Systems and a Bachelor's in Computer Information Systems."
@@ -12,7 +17,7 @@
         },
         {
             "name": "Skills",
-            "fileName": "skillsProfessional",
+            "fileName": "skills",
             "description": "Versatile senior hybrid designer and developer with expertise in web technologies and UI/UX design."
         },
         {

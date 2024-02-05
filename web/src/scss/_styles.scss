@@ -69,7 +69,7 @@ body {
 .hero__image-code {
     width: 694px;
     height: 1186px;
-    top: -290px;
+    bottom: -30px;
     right: -20px;
     filter: brightness(90%) hue-rotate(-65deg) saturate(20%) blur(3px);
 }
@@ -85,7 +85,7 @@ body {
 .nicholasdavis-profile-image {
     width: 560px;
     height: 888px;
-    top: -40px;
+    bottom: 0;
     right: -70px;
     filter: brightness(120%) hue-rotate(-85deg) saturate(70%);
 }

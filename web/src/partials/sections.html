@@ -1,12 +1,12 @@
 {{#each section.block}}
 <div class="row mb-10">
-    <div class="col-md-3">
-        <div class="sticky-top">
-            <h4 class="section__h4 fs-1">{{name}}</h4>
+    <div class="col-lg-3">
+        <div class="stickyTop">
+            <h4 id="{{fileName}}" class="section__h4 fs-1">{{name}}</h4>
             <p>{{description}}</p>
         </div>
     </div>
-    <div class="col-md-7 offset-md-2">
+    <div class="col-lg-7 offset-lg-2">
         <div class="row">
             {{> (concatPath 'section/' fileName)}}
         </div>

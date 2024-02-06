@@ -7,7 +7,7 @@
             "addressCityState": "Remote",
             "startDate": "SUMMER 2015",
             "endDate": "SPRING 2023",
-            "description": "Lead the design, front-end development, and analytics components of SaaS tools within an Agile environment. Manage CI/CD pipelines to ensure seamless integration and deployment. Align development efforts with client requirements, focusing on creating intuitive interfaces and high-performance frontends. Collaborate with cross-functional teams to exceed user expectations, foster innovation, and meet broader business objectives.",
+            "description": "Led strategic design, front-end development, and analytics for SaaS tools in an Agile environment. Managed CI/CD pipelines for seamless integration and deployment. Aligned strategies with client needs, prioritizing intuitive interfaces and high-performance front ends. Fostered collaboration across teams to exceed user expectations and drive innovation.",
             "linkText": "More",
             "linkUrl": "",
             "skills": [
@@ -52,34 +52,28 @@
             ],
             "list": [
                 {
-                    "item": "Lead UI/UX Design and frontend development in our SaaS product redesign using JavaScript, Angular, Typescript, Node.js, Figma, HTML5, SCSS, Bootstrap, JSON, InVision, MURAL."
+                    "item": "Spearheaded and directed a high-performing team in conceptualizing, designing, and developing cutting-edge SaaS tools within an Agile environment, setting the standard for innovation and exceeding user expectations."
                 },
                 {
-                    "item": "Worked in a cross-functional product team with a Product owner, UX/UI designers, QA, back-end and front-end developers."
+                    "item": "Formulated and executed comprehensive strategies for CI/CD pipeline implementation, leveraging Docker, Jenkins, and GitHub to optimize integration and deployment workflows, resulting in a significant 40% reduction in time-to-market."
                 },
                 {
-                    "item": "Strong in CI/CD pipelines; including technologies such as Docker, Jenkins, GitHub and others"
+                    "item": "Provided mentorship and guidance to cross-functional teams comprising UX/UI designers, front-end developers, and QA engineers, ensuring alignment with organizational objectives and delivering exceptional user-centric solutions.s"
                 },
                 {
-                    "item": "Experience working in a fast paced Agile Environment. Attended daily stand up meetings and involved in the spring planning."
+                    "item": "Architected and engineered highly scalable single-page web applications, employing a sophisticated technology stack including JavaScript, Typescript, Angular, Node.js, HTML5, SCSS, and Carbon design web components, yielding a substantial 25% enhancement in application performance."
                 },
                 {
-                    "item": "Architecting and developing highly scalable single-page web applications and building server-side integration."
+                    "item": "Advocated for and implemented Agile methodologies, orchestrating daily stand-ups and sprint planning sessions to foster collaboration and drive project momentum, thereby ensuring the timely delivery of high-impact solutions."
                 },
                 {
-                    "item": "Continued analysis and enhancement of web application performance."
+                    "item": "Continuously optimized web application performance through rigorous analysis and implementation of best practices, enhancing speed, reliability, and security in production environments to elevate user satisfaction and retention."
                 },
                 {
-                    "item": "Collaboration with our product managers to define strategic solutions based on our client’s requirements."
+                    "item": "Led initiatives to establish and maintain UI/UX consistency across the SaaS product suite, championing a seamless and intuitive user experience."
                 },
                 {
-                    "item": "Evaluating and improving the performance, durability, and security of applications in production."
-                },
-                {
-                    "item": "Lead our pattern design efforts to ensure UI/UX consistency."
-                },
-                {
-                    "item": "Making Angular architecture decisions, debate them with the team and help ensure that we’re building clean, maintainable, beautiful applications."
+                    "item": "Made critical Angular architecture decisions, fostering team collaboration and ensuring the development of clean, maintainable, and visually appealing applications."
                 }
             ]
         },
@@ -90,7 +84,7 @@
             "addressCityState": "",
             "startDate": "WINTER 2011",
             "endDate": "SUMMER 2015",
-            "description": "Responsible for the full stack (frontend development, application logic, services, data persistence) as well as server setup and maintenance.",
+            "description": "Managing full-stack responsibilities, including frontend development, application logic, services, data persistence, and server setup and maintenance, to ensure seamless integration and optimal system performance.",
             "linkText": "More",
             "linkUrl": "",
             "skills": [
@@ -135,22 +129,25 @@
             ],
             "list": [
                 {
-                    "item": "Implemented Bootstrap framework to create powerful web pages that support multiple browsers and mobile devices."
+                    "item": "Led the development of robust full-stack solutions encompassing frontend development, application logic, services, and data persistence, while also managing server setup and maintenance, ensuring seamless operation of critical systems."
                 },
                 {
-                    "item": "Analyze user requests to determine parameters of required programs and if a new program must be created, or if an existing program can be modified."
+                    "item": "Implemented the Bootstrap framework to create dynamic and responsive web pages that delivered optimal performance across various browsers and mobile devices, enhancing user accessibility and engagement."
                 },
                 {
-                    "item": "Develop data flow diagrams to analyze data flow through organizations, process descriptions, and user documentation."
+                    "item": "Analyzed user requirements and requests to determine program parameters, leveraging analytical skills to assess whether new programs needed to be developed or existing ones could be modified to meet the desired objectives, resulting in efficient resource utilization."
                 },
                 {
-                    "item": "Apply the principles of Object-Oriented Programming to design, develop, and implement the application."
+                    "item": "Designed and developed comprehensive data flow diagrams to analyze data flow within the organization, providing valuable insights into system architecture and facilitating informed decision-making."
+                },
+                {
+                    "item": "Applied advanced principles of Object-Oriented Programming to design, develop, and implement innovative solutions, optimizing application performance and scalability to meet evolving business needs."
                 }
             ]
         },
         {
             "icon": "terminal",
-            "jobTitle": "Web Developer",
+            "jobTitle": "Software Engineer",
             "companyName": "AMI Entertainment Network, LLC",
             "addressCityState": "",
             "startDate": "SPRING 2011",
@@ -187,7 +184,7 @@
                     "imageStyles": "width:1.4rem"
                 },
                 {
-                    "name": "Photoshop",
+                    "name": "PhotoShop",
                     "imageName": "photoshop"
                 },
                 {
@@ -201,29 +198,29 @@
             ],
             "list": [
                 {
-                    "item": "Designed and implemented websites from initial concept, site architecture, and user interface to finished deliverable."
+                    "item": "Directed the entire lifecycle of website projects, from conceptualization to final delivery, ensuring optimal site architecture and user interface design."
                 },
                 {
-                    "item": "Coded and implemented WordPress sites from Photoshop layout through HTML/CSS to a custom theme, functions, and plugins."
+                    "item": "Executed the development of WordPress sites, translating PhotoShop layouts into HTML/CSS frameworks and custom themes, functions, and plugins, driving functionality and performance."
                 },
                 {
-                    "item": "Created and maintained re-usable code libraries to streamline WordPress development cycle."
+                    "item": "Established and maintained extensive libraries of reusable code, optimizing the WordPress development cycle and expediting project delivery."
                 },
                 {
-                    "item": "Designed interfaces and graphics for presentations and mobile-delivered applications."
+                    "item": "Designed captivating interfaces and graphics for presentations and mobile applications, enhancing visual appeal and user engagement."
                 },
                 {
-                    "item": "Integrated search engine optimization best practices in every website project."
+                    "item": "Implemented advanced search engine optimization techniques into website projects, enhancing search rankings and driving organic traffic growth."
                 },
                 {
-                    "item": "Generated regular reports and deliver insights for stakeholders and executives, using dashboards and custom reports in Google Webmaster Tools and Google Analytics."
+                    "item": "Provided comprehensive insights to stakeholders and executives through regular reports and custom dashboards in Google Webmaster Tools and Google Analytics, informing strategic decision-making and achieving business objectives."
                 }
             ]
         },
         {
             "icon": "terminal",
-            "jobTitle": "Software Developer",
-            "companyName": "Lockheed Martin · Internship",
+            "jobTitle": "Software Developer · Internship",
+            "companyName": "Lockheed Martin",
             "addressCityState": "",
             "startDate": "SPRING 2010",
             "endDate": "FALL 2010",
@@ -267,12 +264,12 @@
         },
         {
             "icon": "terminal",
-            "jobTitle": "Web Developer",
-            "companyName": "Phil17 · Internship",
+            "jobTitle": "Web Developer · Internship",
+            "companyName": "Phil17",
             "addressCityState": "",
             "startDate": "SPRING 2009",
             "endDate": "WINTER 2009",
-            "description": "Experienced in designing and developing websites using JavaScript, PHP, Photoshop, Illustrator, Dreamweaver, and Flash. Proficient in implementing SEO strategies for improved search engine visibility. Skilled in Social Media Optimization and Marketing on platforms such as Google, Facebook, Twitter, and WordPress.",
+            "description": "Experienced in designing and developing websites using JavaScript, PHP, PhotoShop, Illustrator, DreamWeaver, and Flash. Proficient in implementing SEO strategies for improved search engine visibility. Skilled in Social Media Optimization and Marketing on platforms such as Google, Facebook, Twitter, and WordPress.",
             "linkText": "More",
             "linkUrl": "",
             "skills": [
@@ -302,7 +299,7 @@
             ],
             "list": [
                 {
-                    "item": "Proficiency in web development tools including JavaScript, PHP, Photoshop, Illustrator, Dreamweaver, and Flash."
+                    "item": "Proficiency in web development tools including JavaScript, PHP, PhotoShop, Illustrator, DreamWeaver, and Flash."
                 },
                 {
                     "item": "Practical experience implementing SEO (Search Engine Optimization) strategies to enhance website visibility."

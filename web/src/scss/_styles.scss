@@ -10,7 +10,7 @@ body {
 }
 
 // Section Heading Style
-.section__h4 {
+.section__h2 {
     color: #560BAD;
 }
 
@@ -68,7 +68,7 @@ body {
 }
 
 .hero__blur--2 {
-    @include heroBlur(#D03DD3, 736px, 995px, (top: 0, right: -60px), 0.7, blur(70px) saturate(40%));
+    @include heroBlur(#dc10cb, 736px, 995px, (top: 0, right: -60px), 0.7, blur(70px) saturate(40%));
 }
 
 .hero__blur--3 {
@@ -134,6 +134,12 @@ body {
         width: 2rem;
         height: auto;
     }
+}
+
+// Card Body Wrapper 
+.card-body-wrapper {
+    padding: 0.38rem;
+    background-image: linear-gradient(to bottom, #d6826f, #cb6e6d, #bd5c6d, #ac4b6e, #973d70, #82366e, #6c2f6a, #552a65, #3e2459, #291e4b, #15173c, #040d2d);
 }
 
 // Card Body Style

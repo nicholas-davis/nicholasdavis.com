@@ -1,15 +1,17 @@
 {{#each @root.docs.list}}
 <div class="d-flex col-md-6 mb-5">
-    <div class="card bg-white border-0 rounded-4 w-100">
-        <a href="{{linkUrl}}" class="stretched-link z-3" target="_blank"></a>
-        <div class="card-body">
-            <span class="material-symbols-outlined md-40 mb-7">
-                {{icon}}
-            </span>
-            <h2 class="card-title fw-medium">{{name}}</h2>
+    <div class="card bg-white border-0 rounded-4 h-100 w-100">
+        <a href="{{linkUrl}}" class="stretched-link z-3" target="_blank"
+            title="{{@root.user.fullName}}'s doc -- {{name}}"></a>
+        <div class="card-body-wrapper rounded-4 h-100">
+            <div class="card-body bg-white rounded-3 h-100">
+                <span class="material-symbols-outlined md-40 mb-7">
+                    {{icon}}
+                </span>
+                <h2 class="card-title fw-medium">{{name}}</h2>
+            </div>
         </div>
-    </div>
-    <!-- <div class="card bg-white border-0 rounded-4 w-100">
+        <!-- <div class="card bg-white border-0 rounded-4 h-100 w-100">
         <a href="{{#ifEquals name 'Resume'}}{{webRoot}}/doc/{{linkUrl}}{{else}}{{linkUrl}}{{/ifEquals}}"
             class="stretched-link z-3" target="{{#ifEquals name 'Resume'}}_self{{else}}_blank{{/ifEquals}}" download></a>
         <div class="card-body">
@@ -19,5 +21,6 @@
             <h2 class="card-title fw-medium">{{name}}</h2>
         </div>
     </div> -->
+    </div>
 </div>
 {{/each}}

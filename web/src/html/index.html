@@ -8,22 +8,21 @@
 <body>
   <div class="container-fluid p-0">
     <div class="container-fluid__hero-bg overflow-hidden">
-      <div class="container-xl pt-11 position-relative">
+      <div class="container-xl pt-6 pt-md-11 position-relative">
         <div class="hero__blur hero__blur--1"></div>
-        <div class="hero__blur hero__blur--2"></div>
-        <div class="hero__blur hero__blur--3 z-2"></div>
+        <div class="hero__blur hero__blur--2 d-none d-md-block"></div>
+        <div class="hero__blur hero__blur--3 z-2 d-none d-md-block"></div>
         <div class="row">
           <div class="col-md-12 position-absolute d-flex h-100 w-100">
-
             <img class="nicholasdavis-profile-image position-absolute z-1"
               src="{{webRoot}}/assets/img/nicholasdavis-hero-image.png" alt="Nicholas Davis" />
-            <img class="hero__image-code position-absolute" src="{{webRoot}}/assets/img/nicholasdavis--hero-code.svg"
-              alt="Nicholas Davis's code">
+            <img class="hero__image-code position-absolute d-none d-md-block"
+              src="{{webRoot}}/assets/img/nicholasdavis--hero-code.svg" alt="Nicholas Davis's code">
           </div>
           <div class="col-md-12 position-relative">
-            <h1 class="d-flex flex-column position-relative display-1 display-1--hero-headline z-2 mb-8">
-              <span class="fw-lighter hero__text-line-height">An extremely</span>
-              <span class="fw-lighter hero__text-line-height">passionate</span>
+            <h1 class="d-flex flex-column position-relative display-1 display-1--hero-headline z-2 mb-md-8">
+              <span class="fw-light hero__text-line-height">An extremely</span>
+              <span class="fw-light hero__text-line-height">passionate</span>
               <span>
                 <span class="fw-bolder hero__colored-text">designer</span>
                 <span class="fw-normal">&&</span>
@@ -33,11 +32,18 @@
 
           </div>
           <div class="col-md-12">
-            <p class="lead text-white position-relative fs-2 mb-9 z-2">As a seasoned leader in front-end development and
-              UI/UX design, I've honed exceptional design and coding skills, co-authoring 500+ reusable web components.
-              With over 15 years of experience, I've led transformative initiatives, enhancing organizational
-              scalability and boosting efficiency. I thrive in dynamic environments, collaborating with cross-functional
-              agile teams to deliver high-quality design and code, consistently exceeding expectations.</p>
+            <p class="lead lead--hero-text text-white position-relative mb-9 z-2">
+              <span class="d-none d-lg-block">As a seasoned leader in front-end
+                development and
+                UI/UX design, I've honed exceptional design and coding skills, co-authoring 500+ reusable web
+                components.
+                With over 15 years of experience, I've led transformative initiatives, enhancing organizational
+                scalability and boosting efficiency. I thrive in dynamic environments, collaborating with
+                cross-functional
+                agile teams to deliver high-quality design and code, consistently exceeding expectations.</span>
+              <span class="d-block d-lg-none">15+ years of experience in front-end development and UI/UX
+                design.</span>
+            </p>
           </div>
         </div>
       </div>

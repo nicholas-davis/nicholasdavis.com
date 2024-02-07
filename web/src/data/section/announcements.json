@@ -5,7 +5,7 @@
             "name": "Job",
             "item": [
                 {
-                    "text": "Currently in the job market (Q1 2024) looking for full-time remote position, anything senior level regarding UI/UX design and/or frond end development. Contact me at 215-421-4627."
+                    "text": "I am actively seeking a full-time remote senior-level position in UI/UX design and/or front-end development. Reach out to me at 215-421-4627 or hire@nicholasdavis.com to discuss opportunities."
                 }
             ]
         },
@@ -14,10 +14,10 @@
             "name": "Website To-dos",
             "item": [
                 {
-                    "text": "Work on NicholasDavis.com's responsive design to finalize the website (due date: Feb 7th 2024)."
+                    "text": "Next, build an angular app using Apollo Angular Client and Graphql (due date: Feb 20th 2024)."
                 },
                 {
-                    "text": "Next, build an angular app using Apollo Angular Client and Graphql (due date: Feb 20th 2024)."
+                    "text": "Provide more designs and code examples (due date: Feb 28th 2024)."
                 }
             ]
         }

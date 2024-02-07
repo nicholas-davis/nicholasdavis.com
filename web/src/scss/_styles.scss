@@ -14,20 +14,30 @@ body {
     color: #560BAD;
 }
 
-// Hero Headline Style
-.display-1--hero-headline {
-    font-size: 7rem;
+@include media-breakpoint-up(md) {
+
+    // Hero Headline Style
+    .display-1--hero-headline {
+        font-size: 7rem;
+    }
+
+    // Hero Text Line Height
+    .hero__text-line-height {
+        line-height: 5.5rem;
+    }
+
+    .lead--hero-text {
+        font-size: 1.75rem;
+    }
+
 }
 
-// Small Text Style
-.small--60 {
-    font-size: 60%;
+@include media-breakpoint-down(md) {
+    .lead--hero-text {
+        margin-bottom: 6rem;
+    }
 }
 
-// Hero Text Line Height
-.hero__text-line-height {
-    line-height: 5.5rem;
-}
 
 // Colored Text in Hero
 .hero__colored-text {
@@ -74,6 +84,12 @@ body {
     filter: brightness(90%) hue-rotate(-65deg) saturate(20%) blur(3px);
 }
 
+@include media-breakpoint-down(md) {
+    .hero__image-code {
+        filter: blur(8px);
+    }
+}
+
 // Hero Background Style
 .container-fluid__hero-bg {
     background: url(/assets/img/nicholasdavis-hero-bg.jpg) no-repeat center center/cover;
@@ -88,6 +104,20 @@ body {
     bottom: 0;
     right: -70px;
     filter: brightness(120%) hue-rotate(-85deg) saturate(70%);
+}
+
+@include media-breakpoint-only(md) {
+    .nicholasdavis-profile-image {
+        right: -140px;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .nicholasdavis-profile-image {
+        width: 330px;
+        height: 508px;
+        bottom: -150px;
+    }
 }
 
 // Navbar Font Style
@@ -130,4 +160,9 @@ body {
     height: 100%;
     width: 100%;
     z-index: 1;
+}
+
+// Small Text Style
+.small--60 {
+    font-size: 60%;
 }

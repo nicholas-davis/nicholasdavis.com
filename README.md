@@ -11,6 +11,9 @@
     <a href="https://www.figma.com/file/TliiS3dorVYnK7bc6CAa5c/nicholasdavis.com?type=design&node-id=0%3A1&mode=design&t=iyKZdsyY8AvsCOk7-1" target="_blank">Figma Link</a>
   </p>
 </div>
+<br />
+<br />
+<br />
 
 <!-- INTRO -->
 NicholasDavis.com

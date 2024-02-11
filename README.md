@@ -1,6 +1,3 @@
-
-
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
 
@@ -15,9 +12,21 @@
   </p>
 </div>
 
+<!-- INTRO -->
+NicholasDavis.com
+=============
+
+Built and design by Nicholas Davis to showcase his expertise in senior-level design and front-end development. 
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+Run `npm install`.
+
+Run `npm start` for a dev server. Navigate to `http://localhost:8080/`. The application will automatically reload if you change any of the source files.
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Screenshot
 
 [![Product Name Screen Shot][product-screenshot]](https://nicholasdavis.com)
 
@@ -29,13 +38,6 @@
 * [![JQuery][JQuery.com]][JQuery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-NicholasDavis.com v2 is under development.
 
 
 

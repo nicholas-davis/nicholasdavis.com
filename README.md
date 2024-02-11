@@ -16,7 +16,7 @@
 NicholasDavis.com
 =============
 
-Built and design by Nicholas Davis to showcase his expertise in senior-level design and front-end development. 
+Built and designed by Nicholas Davis to showcase his expertise in senior-level design and front-end development. 
 
 <!-- GETTING STARTED -->
 ## Getting Started

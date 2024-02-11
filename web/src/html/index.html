@@ -10,26 +10,25 @@
     <div class="container-fluid__hero-bg overflow-hidden">
       <div class="container-xl pt-6 pt-md-11 position-relative">
         <div class="hero__blur hero__blur--1"></div>
-        <div class="hero__blur hero__blur--2 z-2 d-none d-md-block"></div>
-        <div class="hero__blur hero__blur--3 z-2 d-none d-md-block"></div>
+        <div class="hero__blur hero__blur--2 z-2"></div>
+        <div class="hero__blur hero__blur--3 z-2"></div>
         <div class="row">
           <div class="col-md-12 position-absolute d-flex h-100 w-100">
             <img class="nicholasdavis-profile-image position-absolute z-1"
-              src="{{webRoot}}/assets/img/nicholasdavis-hero-image.png" alt="Nicholas Davis" />
+              src="{{webRoot}}/assets/img/nicholasdavis-hero-image.png" alt="{{user.fullName}}" />
             <img class="hero__image-code position-absolute d-none d-md-block"
-              src="{{webRoot}}/assets/img/nicholasdavis--hero-code.svg" alt="Nicholas Davis's code">
+              src="{{webRoot}}/assets/img/nicholasdavis--hero-code.svg" alt="{{user.fullName}}'s code">
           </div>
           <div class="col-md-12 position-relative">
             <h1 class="d-flex flex-column position-relative display-1 display-1--hero-headline z-2 mb-md-8">
-              <span class="fw-light hero__text-line-height">An extremely</span>
-              <span class="fw-light hero__text-line-height">passionate</span>
+              <span class="fw-light hero__text-color hero__text-line-height">An extremely</span>
+              <span class="fw-light hero__text-color hero__text-line-height">passionate</span>
               <span>
-                <span class="fw-bolder hero__colored-text">designer</span>
-                <span class="fw-normal">&&</span>
+                <span class="fw-bolder hero__job-text">designer</span>
+                <span class="fw-normal hero__text-color">&&</span>
               </span>
-              <span<span class="fw-bolder hero__colored-text">frontend developer</span>
+              <span<span class="fw-bolder hero__job-text">frontend developer</span>
             </h1>
-
           </div>
           <div class="col-md-12">
             <p class="lead lead--hero-text text-white position-relative mb-9 z-2">

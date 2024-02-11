@@ -3,6 +3,7 @@
         {
             "icon": "campaign",
             "name": "Job",
+            "type": "list",
             "item": [
                 {
                     "text": "I am actively seeking a full-time remote senior-level position in UI/UX design and/or front-end development. Reach out to me at 215-421-4627 or hire@nicholasdavis.com to discuss opportunities."
@@ -12,12 +13,43 @@
         {
             "icon": "campaign",
             "name": "Website To-dos",
+            "type": "list",
             "item": [
                 {
                     "text": "Next, build an angular app using Apollo Angular Client and Graphql (due date: Feb 20th 2024)."
                 },
                 {
                     "text": "Create more designs and code examples (due date: Feb 28th 2024)."
+                }
+            ]
+        },
+        {
+            "icon": "campaign",
+            "name": "Example projects",
+            "type": "link",
+            "linkUrl": "https://github.com/nicholas-davis",
+            "linkText": "More",
+            "item": [
+                {
+                    "name": "License plate name generator",
+                    "imageName": "angular",
+                    "imageStyles": "",
+                    "text": "Q1 2024 — Angular, TypeScript, RxJs",
+                    "linkUrl": "https://github.com/nicholas-davis/code/tree/main/angular-license-plate-name-generator"
+                },
+                {
+                    "name": "NicholasDavis.com V2 website",
+                    "imageName": "javascript",
+                    "imageStyles": "",
+                    "text": "Q1 2024 — JavaScript, Handlebars, Bootstrap, SCSS",
+                    "linkUrl": "https://github.com/nicholas-davis/nicholasdavis.com"
+                },
+                {
+                    "name": "Design project screenshots",
+                    "imageName": "yard",
+                    "imageStyles": "",
+                    "text": "Q1 2024 — Project section, scroll down",
+                    "linkUrl": "/#projects"
                 }
             ]
         }

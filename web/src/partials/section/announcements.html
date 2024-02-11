@@ -1,11 +1,12 @@
 {{#each @root.announcements.list}}
-<div class="d-flex col-md-6 mb-5">
+<div class="{{#if @last}}col-md-12{{else}}d-flex col-md-6 mb-5{{/if}}">
     <div class="card bg-white border-0 rounded-4 h-100">
         <div class="card-body-wrapper rounded-4 h-100">
             <div class="card-body bg-white rounded-3 h-100">
                 <span class="material-symbols-outlined md-40 mb-7">
                     {{icon}}
                 </span>
+                {{#ifEquals type 'list'}}
                 <h2 class="card-title fw-medium">{{name}}</h2>
                 <ul class="list-unstyled">
                     {{#each item}}
@@ -19,6 +20,20 @@
                     </li>
                     {{/each}}
                 </ul>
+                {{/ifEquals}}
+                {{#ifEquals type 'link'}}
+                <h2 class="card-title fw-medium mb-4">{{name}}</h2>
+                {{#each item}}
+                {{> components/section-list-link__component}}
+                {{/each}}
+                <hr class="border-light mt-5" />
+                <a class="d-flex icon-link fw-bolder fs-5" href="{{linkUrl}}" title="{{linkText}}">
+                    <span class="me-auto">{{linkText}}</span>
+                    <span class="material-symbols-outlined md-18 fw-bolder">
+                        north_east
+                    </span>
+                </a>
+                {{/ifEquals}}
             </div>
         </div>
     </div>

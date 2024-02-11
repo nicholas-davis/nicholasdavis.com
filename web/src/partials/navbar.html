@@ -1,8 +1,8 @@
 <header class="bg-white position-relative mb-9 mb-lg-12 pt-4 pb-4">
   <nav class="navbar navbar--righteous-family-font navbar-expand-lg bg-body-tertiary pt-3 pb-3">
     <div class="container-xl">
-      <a class="navbar-brand lh-sm d-flex flex-column" href="#" title="Nicholas Davis">
-        <span class="fs-2">Nicholas Davis</span>
+      <a class="navbar-brand lh-sm d-flex flex-column" href="#" title="{{user.fullName}}">
+        <span class="fs-2">{{user.fullName}}</span>
         <span class="fs-6">{{user.addressLine1}}, {{user.addressLine2}}</span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -23,11 +23,22 @@
           <span>{{user.email}}</span>
         </span>
         <span class="d-flex align-items-center">
+          <a href="https://www.linkedin.com/in/nicholas-davis"
+            class="btn btn-sm btn-outline-primary btn--outline-hover me-3" title="{{user.fullName}}'s LinkedIn Profile"
+            target="_blank">
+            <img src="{{webRoot}}/assets/img/icons/linkedin-icon.svg" alt="{{user.fullName}}'s LinkedIn Profile">
+          </a>
+          <a href="https://github.com/nicholas-davis" class="btn btn-sm btn-outline-primary btn--outline-hover me-3"
+            title="{{user.fullName}}'s Github Profile" target="_blank">
+            <img src="{{webRoot}}/assets/img/icons/github-icon.svg" alt="{{user.fullName}}'s Github Profile">
+          </a>
+        </span>
+        <!-- <span class="d-flex align-items-center">
           <span class="material-symbols-outlined me-3">
             public
           </span>
           <span>{{page.shortSiteURL}}</span>
-        </span>
+        </span> -->
       </div>
     </div>
   </nav>

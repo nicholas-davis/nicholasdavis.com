@@ -38,9 +38,12 @@ body {
     }
 }
 
+.hero__text-color {
+    color: #ffe4d8;
+}
 
 // Colored Text in Hero
-.hero__colored-text {
+.hero__job-text {
     color: #50FDD9;
 }
 
@@ -162,7 +165,7 @@ body {
 // Card Image Gradient Overlay Style
 .card-image-gradient {
     position: absolute;
-    background: linear-gradient(to bottom, transparent, #0AFFCC);
+    background: linear-gradient(to bottom, transparent, #50FDD9);
     height: 100%;
     width: 100%;
     z-index: 1;
@@ -171,4 +174,10 @@ body {
 // Small Text Style
 .small--60 {
     font-size: 60%;
+}
+
+.btn--outline-hover {
+    &:hover {
+        background-color: #EEE;
+    }
 }

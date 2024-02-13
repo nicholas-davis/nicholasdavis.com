@@ -31,10 +31,19 @@
             "linkText": "More",
             "item": [
                 {
+                    "name": "Rock paper scissors game",
+                    "imageName": "angular",
+                    "imageStyles": "",
+                    "text": "Q1 2024 — Angular, TypeScript, RxJs",
+                    "linkDemoUrl": "/projects/rock-paper-scissors-game/",
+                    "linkUrl": "https://github.com/nicholas-davis/code/tree/main/angular-rock-paper-scissors-game"
+                },
+                {
                     "name": "License plate name generator",
                     "imageName": "angular",
                     "imageStyles": "",
                     "text": "Q1 2024 — Angular, TypeScript, RxJs",
+                    "linkDemoUrl": "/projects/license-plate-name-generator",
                     "linkUrl": "https://github.com/nicholas-davis/code/tree/main/angular-license-plate-name-generator"
                 },
                 {
@@ -42,6 +51,7 @@
                     "imageName": "javascript",
                     "imageStyles": "",
                     "text": "Q1 2024 — JavaScript, Handlebars, Bootstrap, SCSS",
+                    "linkDemoUrl": "https://www.nicholasdavis.com",
                     "linkUrl": "https://github.com/nicholas-davis/nicholasdavis.com"
                 },
                 {

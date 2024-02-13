@@ -100,14 +100,6 @@
             "time": "5"
         },
         {
-            "category": "Languages",
-            "name": "react",
-            "imageName": "react",
-            "imageStyles": "",
-            "level": "Junior",
-            "time": "1"
-        },
-        {
             "priority": true,
             "category": "Tools",
             "name": "Visual Studio Code",
@@ -264,6 +256,14 @@
             "imageStyles": "",
             "level": "Principal",
             "time": "5"
+        },
+        {
+            "category": "Frameworks",
+            "name": "react",
+            "imageName": "react",
+            "imageStyles": "",
+            "level": "Junior",
+            "time": "1"
         },
         {
             "priority": true,

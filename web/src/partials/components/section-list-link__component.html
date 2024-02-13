@@ -1,6 +1,9 @@
 <!--Component -- List Link-->
-<a href="{{linkUrl}}" class="d-flex align-items-center mb-3" title="{{name}}"
-    target="{{#ifEquals imageName 'yard'}}_self{{else}}_blank{{/ifEquals}}">
+<div class="d-flex align-items-center mb-3 position-relative">
+
+    <a href="{{linkUrl}}" class="position-absolute flex-fill w-100 h-100 z-1" title="{{name}} Github project"
+        target="{{#ifEquals imageName 'yard'}}_self{{else}}_blank{{/ifEquals}}"></a>
+
     <div class="d-flex justify-content-center align-items-center skills-wrapper bg-light-subtle rounded-2 p-2 me-3">
         {{#ifEquals imageName 'yard'}}
         <span class="material-symbols-outlined md-24">
@@ -15,9 +18,25 @@
         <h5 class="fs-4 fw-bold mb-0 lh-1 text-truncate">{{name}}</h5>
         <h6 class="fs-6 fw-normal text-tertiary mb-0 text-truncate">{{text}}</h6>
     </div>
-    <div class="ms-4">
+    <div class="ms-4 d-none d-md-block z-2">
+        {{#ifEquals imageName 'yard'}}
+        <span class="material-symbols-outlined md-20 fw-bolder">
+            north_east
+        </span>
+        {{else}}
+        <a href="{{linkUrl}}" class="btn btn-sm btn-outline-primary btn--outline-hover" title="{{name}} Github project"
+            target="_blank">
+            <img src="{{webRoot}}/assets/img/icons/github-icon.svg" alt="{{user.fullName}}'s Github Profile">
+        </a>
+        <a href="{{linkDemoUrl}}" class="btn btn-sm btn-primary" title="{{name}} demo"
+            target="{{#ifEquals imageName 'yard'}}_self{{else}}_blank{{/ifEquals}}">
+            Demo
+        </a>
+        {{/ifEquals}}
+    </div>
+    <div class="ms-4 d-block d-md-none">
         <span class="material-symbols-outlined md-20 fw-bolder">
             north_east
         </span>
     </div>
-</a>
+</div>

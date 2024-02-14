@@ -5,9 +5,9 @@
             "jobTitle": "Sr. Lead Front End Software Engineer (Hybrid Designer + Developer) — Remote",
             "companyName": "IBM",
             "addressCityState": "Remote",
-            "startDate": "SUMMER 2015",
-            "endDate": "SPRING 2023",
-            "description": "Led strategic design, front-end development, and analytics for SaaS tools in an Agile environment. Managed CI/CD pipelines for seamless integration and deployment. Aligned strategies with client needs, prioritizing intuitive interfaces and high-performance front ends. Fostered collaboration across teams to exceed user expectations and drive innovation.",
+            "startDate": "AUGUST 2015",
+            "endDate": "MAY 2023",
+            "description": "Led strategic design, front end development, and analytics for SaaS tools in an Agile environment. Managed CI/CD pipelines for seamless integration and deployment. Aligned strategies with client needs, prioritizing intuitive interfaces and high-performance front ends. Fostered collaboration across teams to exceed user expectations and drive innovation.",
             "linkText": "More",
             "linkUrl": "",
             "skills": [
@@ -58,7 +58,7 @@
                     "item": "Formulated and executed comprehensive strategies for CI/CD pipeline implementation, leveraging Docker, Jenkins, and GitHub to optimize integration and deployment workflows, resulting in a significant 40% reduction in time-to-market."
                 },
                 {
-                    "item": "Provided mentorship and guidance to cross-functional teams comprising UX/UI designers, front-end developers, and QA engineers, ensuring alignment with organizational objectives and delivering exceptional user-centric solutions.s"
+                    "item": "Provided mentorship and guidance to cross-functional teams comprising UX/UI designers, front end developers, and QA engineers, ensuring alignment with organizational objectives and delivering exceptional user-centric solutions.s"
                 },
                 {
                     "item": "Architected and engineered highly scalable single-page web applications, employing a sophisticated technology stack including JavaScript, Typescript, Angular, Node.js, HTML5, SCSS, and Carbon design web components, yielding a substantial 25% enhancement in application performance."
@@ -82,9 +82,9 @@
             "jobTitle": "University of Pennsylvania Health System Department of Dermatology",
             "companyName": "Programmer Analyst ll",
             "addressCityState": "",
-            "startDate": "WINTER 2011",
-            "endDate": "SUMMER 2015",
-            "description": "Managing full-stack responsibilities, including frontend development, application logic, services, data persistence, and server setup and maintenance, to ensure seamless integration and optimal system performance.",
+            "startDate": "DECEMBER 2011",
+            "endDate": "AUGUST 2015",
+            "description": "Managing full-stack responsibilities, including front end development, application logic, services, data persistence, and server setup and maintenance, to ensure seamless integration and optimal system performance.",
             "linkText": "More",
             "linkUrl": "",
             "skills": [
@@ -129,7 +129,7 @@
             ],
             "list": [
                 {
-                    "item": "Led the development of robust full-stack solutions encompassing frontend development, application logic, services, and data persistence, while also managing server setup and maintenance, ensuring seamless operation of critical systems."
+                    "item": "Led the development of robust full-stack solutions encompassing front end development, application logic, services, and data persistence, while also managing server setup and maintenance, ensuring seamless operation of critical systems."
                 },
                 {
                     "item": "Implemented the Bootstrap framework to create dynamic and responsive web pages that delivered optimal performance across various browsers and mobile devices, enhancing user accessibility and engagement."
@@ -150,8 +150,8 @@
             "jobTitle": "Software Engineer",
             "companyName": "AMI Entertainment Network, LLC",
             "addressCityState": "",
-            "startDate": "SPRING 2011",
-            "endDate": "WINTER 2011",
+            "startDate": "APRIL 2011",
+            "endDate": "DECEMBER 2011",
             "description": "Worked as an integral part of a cohesive team by solving problems and building innovative web solutions from open source software. Participated in all stages of design, development, testing, implementation, and maintenance.",
             "linkText": "More",
             "linkUrl": "",
@@ -222,8 +222,8 @@
             "jobTitle": "Software Developer · Internship",
             "companyName": "Lockheed Martin",
             "addressCityState": "",
-            "startDate": "SPRING 2010",
-            "endDate": "FALL 2010",
+            "startDate": "APRIL 2010",
+            "endDate": "SEPTEMBER 2010",
             "description": "Acquired diverse technological skills through collaboration with seasoned engineers. Played a key role in designing, constructing, and testing core platform components. Conducted research to identify solutions for platform requirements and contributed to the development of tools to enhance supportability.",
             "linkText": "More",
             "linkUrl": "",
@@ -265,10 +265,10 @@
         {
             "icon": "terminal",
             "jobTitle": "Web Developer · Internship",
-            "companyName": "Phil17",
+            "companyName": "Phl17",
             "addressCityState": "",
-            "startDate": "SPRING 2009",
-            "endDate": "WINTER 2009",
+            "startDate": "MAY 2009",
+            "endDate": "DECEMBER 2009",
             "description": "Experienced in designing and developing websites using JavaScript, PHP, PhotoShop, Illustrator, DreamWeaver, and Flash. Proficient in implementing SEO strategies for improved search engine visibility. Skilled in Social Media Optimization and Marketing on platforms such as Google, Facebook, Twitter, and WordPress.",
             "linkText": "More",
             "linkUrl": "",

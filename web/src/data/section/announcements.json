@@ -16,9 +16,6 @@
             "type": "list",
             "item": [
                 {
-                    "text": "Next, build an angular app using Apollo Angular Client and Graphql (due date: Feb 20th 2024)."
-                },
-                {
                     "text": "Create more designs and code examples (due date: Feb 28th 2024)."
                 }
             ]
@@ -31,12 +28,20 @@
             "linkText": "More",
             "item": [
                 {
+                    "name": "Search Countries",
+                    "imageName": "graphql",
+                    "imageStyles": "",
+                    "text": "Q1 2024 — Angular, TypeScript, RxJs and GraphQL",
+                    "linkDemoUrl": "/projects/search-countries/",
+                    "linkUrl": "https://github.com/nicholas-davis/search-countries-angular"
+                },
+                {
                     "name": "Rock paper scissors game",
                     "imageName": "angular",
                     "imageStyles": "",
                     "text": "Q1 2024 — Angular, TypeScript, RxJs",
                     "linkDemoUrl": "/projects/rock-paper-scissors-game/",
-                    "linkUrl": "https://github.com/nicholas-davis/code/tree/main/angular-rock-paper-scissors-game"
+                    "linkUrl": "https://github.com/nicholas-davis/rock-paper-scissors-game-angular"
                 },
                 {
                     "name": "License plate name generator",
@@ -44,7 +49,7 @@
                     "imageStyles": "",
                     "text": "Q1 2024 — Angular, TypeScript, RxJs",
                     "linkDemoUrl": "/projects/license-plate-name-generator",
-                    "linkUrl": "https://github.com/nicholas-davis/code/tree/main/angular-license-plate-name-generator"
+                    "linkUrl": "https://github.com/nicholas-davis/license-plate-name-generator-angular"
                 },
                 {
                     "name": "NicholasDavis.com V2 website",
